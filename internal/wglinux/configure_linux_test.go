@@ -14,9 +14,9 @@ import (
 	"github.com/mdlayher/netlink"
 	"github.com/mdlayher/netlink/nlenc"
 	"github.com/mikioh/ipaddr"
+	"github.com/wirekcp/wgctrl/internal/wgtest"
+	"github.com/wirekcp/wgctrl/wgtypes"
 	"golang.org/x/sys/unix"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wgtest"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 )
 
 func TestLinuxClientConfigureDevice(t *testing.T) {

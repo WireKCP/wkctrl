@@ -17,11 +17,11 @@ import (
 	"time"
 	"unsafe"
 
+	"github.com/wirekcp/wgctrl/internal/wgfreebsd/internal/nv"
+	"github.com/wirekcp/wgctrl/internal/wgfreebsd/internal/wgh"
+	"github.com/wirekcp/wgctrl/internal/wginternal"
+	"github.com/wirekcp/wgctrl/wgtypes"
 	"golang.org/x/sys/unix"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wgfreebsd/internal/nv"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wgfreebsd/internal/wgh"
-	"golang.zx2c4.com/wireguard/wgctrl/internal/wginternal"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 )
 
 // ifGroupWG is the WireGuard interface group name passed to the kernel.

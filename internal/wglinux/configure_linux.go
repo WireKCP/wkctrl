@@ -11,8 +11,8 @@ import (
 
 	"github.com/mdlayher/netlink"
 	"github.com/mdlayher/netlink/nlenc"
+	"github.com/wirekcp/wgctrl/wgtypes"
 	"golang.org/x/sys/unix"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
 )
 
 // configAttrs creates the required encoded netlink attributes to configure

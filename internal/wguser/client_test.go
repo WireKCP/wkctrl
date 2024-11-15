@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"golang.zx2c4.com/wireguard/wgctrl/wgtypes"
+	"github.com/wirekcp/wgctrl/wgtypes"
 )
 
 // A known device name used throughout unit and integration tests.
