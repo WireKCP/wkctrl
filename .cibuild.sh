@@ -33,7 +33,7 @@ if [ "${KERNEL}" == "Linux" ]; then
 fi
 
 # Set up wireguard-go on all OSes.
-git clone git://git.zx2c4.com/wireguard-go
+git clone https://github.com/WireKCP/wireguard-go.git
 cd wireguard-go
 
 if [ "${KERNEL}" == "Linux" ]; then

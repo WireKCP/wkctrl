@@ -370,7 +370,6 @@ func testConfigurePeersUpdateOnly(t *testing.T, c *wgctrl.Client, d *wgtypes.Dev
 			t.Skip("FreeBSD kernel devices do not support UpdateOnly flag")
 		}
 
-
 		t.Fatalf("failed to configure second time on %q: %v", d.Name, err)
 	}
 
